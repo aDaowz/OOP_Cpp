@@ -1,11 +1,11 @@
-# Programación .NET
+# Programación Orientada a Objetos
 Repositorio para materia Programación Orientada a Objetos.
 
 Este repositorio tiene como objetivo el estudio de Programación Orientado a Objetos usando el lenguaje de programación C++ para el estudio de algoritmos y aplicaciones.
 
 ---
 
-## Criterios de evaluación para **Programación II**
+## Criterios de evaluación para **Programación Orientada a Objetos**
 | Criterio       | Ponderación |
 |:---------------|------------:|
 | Tareas         | 10%         |
@@ -16,8 +16,8 @@ Este repositorio tiene como objetivo el estudio de Programación Orientado a Obj
 
 ## Fechas de entrega
 
-- Examen: 9 Abril 2026.
-- Proyecto final: 23 Abril 2026.
+- Examen: TBD.
+- Proyecto final: TBD.
 
 ## Lista de prácticas
 
