@@ -57,7 +57,7 @@ int main() {
     int VARIABLE = 100;
     std::cout << "* Valor de VARIABLE: " << VARIABLE << std::endl;  // 100
 
-    // Mostramos la direccion de memoria donde vive VARIABLE.
+    // Se muestra la direccion de memoria donde vive VARIABLE.
     std::cout << "* Direccion de memoria de VARIABLE (&VARIABLE): " << &VARIABLE << std::endl;  // 00000094537BF614
 
 
