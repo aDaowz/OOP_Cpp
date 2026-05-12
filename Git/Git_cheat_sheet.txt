@@ -1,0 +1,49 @@
+Comandos básicos de Git:
+
+    Una vez que se encuentra clonado el repositorio, por default el repositorio local se encuentra posicionado en el branch principal de "main" (antiguamente denominado "master").
+
+    Nota: Cualquier cambio que se realice localmente, esto ya es detectado por git y lo considera como un archivo potencial a ser subido.
+
+    - Ubicar en qué branch estamos posicionados.
+        git branch
+
+    - Enlistar branches remotos y locales.
+        git branch -a
+
+    - Cambiarse a un branch existente
+        git checkout nombre_de_branch
+
+    - Crear un nuevo branch y posicionarse a ese branch
+        git checkout -b nombre_de_branch
+
+        Nota: cuando se crea un nuevo branch, este siempre se basa del branch donde originalmente estábamos posicionados.
+
+    -* Descargar actualizaciones del branch
+        git pull
+
+    - Conocer si hay cambios realizados
+        git status
+
+    - Descartar los cambios que se habían realizad
+        git stash
+		
+	- Comparar la versión local contra la remota en un archivo
+		git diff
+
+    Preparación para subir cambios.
+
+        1. Agregar a "stage". Stage es un estado de git que prepara todos los archivos que serán subidos al branch remoto.
+
+            Version 1 (sube todo):
+                git add .
+
+            Version 2 (sube de uno por uno):
+                git add nombre_archivo
+
+        2. Commit. El commit es el paso para etiquetar a través de un mensaje lo que se trabajó.
+
+            git commit -m "Mensaje que tendrá"
+
+        3. Push. Paso en el que se envían los cambios al branch remoto.
+
+            git push origin nombre_branch

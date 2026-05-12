@@ -1,1 +1,0 @@
-Archivo para subir comandos básicos de Git.
