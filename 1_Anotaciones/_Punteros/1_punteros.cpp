@@ -1,6 +1,8 @@
 #include <iostream>
-using namespace std;
 
+// Paso de parámetros
+//    - Por valor           // Cuando los tipos de datos son primitivos (de parámetros)
+//    - Por referencia      // Cuando los tipos de datos son compuestos (parámetros)
 void swapNormal(int x, int y)
 {
     int temporal = x;
@@ -8,6 +10,7 @@ void swapNormal(int x, int y)
     y = temporal;
 }
 
+// En C++ se puede manejar la memoria explicita y directamente.
 void swapPunteros(int* x, int* y)
 {
     int temporal = *x;
@@ -80,7 +83,7 @@ int main() {
     Es importante notar que:
 
     - direccion_de_VARIABLE (sin &) es el CONTENIDO del puntero.
-      Es decir que el puntero contiene la direccion a la que apunta.
+      Es decir que el puntero contiene la direccion a la que apunta. Esto no es válido!!!!
 
     - &direccion_de_VARIABLE (con &) es la direccion de memoria donde vive el puntero
       como variable.
@@ -172,7 +175,7 @@ int main() {
     int b = 20;
 
     swapNormal(a, b); // No ocurre swap porque la función recibió COPIAS de los valores.
-    //swapPunteros(&a, &b); // La función notrabaja sobre copias sino directamente sobre las variables originales.
+    //swapPunteros(&a, &b); // La función no trabaja sobre copias sino directamente sobre las variables originales.
 
     std::cout << "a: " << a << std::endl;
     std::cout << "b: " << b << std::endl;
