@@ -165,7 +165,5 @@ int main()
     Persona persona2("Gisell", 19);
     persona2.MostrarInformacion();
 
-    std::cin.get();
-
     return 0;
 }

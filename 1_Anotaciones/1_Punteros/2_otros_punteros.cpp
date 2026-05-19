@@ -33,8 +33,10 @@ int main()
     // Valor devuelto por el doble puntero. Está desreferenciado con doble **
         std::cout << "Valor apuntado por **doblePtr: " << **doblePtr << std::endl;   // 10
 
+
     std::cout << "==================================================================================================================\n\n";
     std::cout << "PUNTEROS DINAMICOS" << "\n\n";
+    
 
     std::cout << "Los punteros dinámicos en C++ se usan para manejar la memoria de manera dinámica, es decir, asignar memoria durante la ejecución del programa (en lugar de en tiempo de compilación). Esto se hace generalmente usando las palabras clave new y delete" << std::endl << std::endl;
 
@@ -86,7 +88,7 @@ int main()
     }
 
     // Liberamos la memoria
-    delete[] dynamicArray;
+    delete[] dynamicArray; // En una máquina virtual implementad por java ó c#, aquí entraría en juego el Garbage Collector.
 
     return 0;
 }
