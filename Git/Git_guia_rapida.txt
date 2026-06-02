@@ -41,11 +41,14 @@ Pasos para subir tareas a Github
 9. Mover tarea al estado de "stage".
         git add .                       // Agrega todos los archivos a stage
 
-10. Realizar commit de lo que se va a subir.
+10. Asegurarse que los que se pretende subir, sí está en stage.
+        git status                      // Enlista archivos modificados
+
+11. Realizar commit de lo que se va a subir.
         git commit -m "Mensaje breve de lo que se esta subiendo"
 
-11. Subir al branch remoto los cambios locales
+12. Subir al branch remoto los cambios locales
         git push origin apellido_p1
 
-12. Trabajar Pull Request
+13. Trabajar Pull Request
 
