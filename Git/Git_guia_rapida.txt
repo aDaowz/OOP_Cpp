@@ -1,54 +1,95 @@
-Pasos para subir tareas a Github
 
-1. Clonar el repositorio
+PASOS PARA SUBIR TAREAS A GITHUB.
 
-2. Abrir el repositorio en Visual Studio Code (Azul).
+        1. Tener el repositorio clonado en una carpeta.
 
-3. Asegurarse que estamos posicionados en el branch de "main" (el nombre legacy de main es "master").
-        git branch                      // Enlista los branches locales y muestra
-                                        // en color verde y con asterisco el branch
-                                        // donde nos encontramos posicionados.
+        2. Abrir el repositorio en Visual Studio Code (Azul).
+                - Arrastrar la carpeta a una ventana de Visual Studio Code.
 
-4. Si no estamos en main, asegurarse que nos posicionemos en main
-        git checkout main               // Nos posicionamos a main.
+        3. Asegurarse que estamos posicionados en el branch de "main" (el nombre legacy de main es "master").
+                git branch                      // Enlista los branches locales y muestra
+                                                // en color verde y con asterisco el branch
+                                                // donde nos encontramos posicionados actualmente.
 
-5. Asegurarse que tenemos actualizado el main en nuestro repositorio local.
-        git pull                        // Descarga las actualizaciones de main a nuestro local.
+        4. Si no estamos en main, asegurarse que nos posicionemos en main
+                git checkout main               // Nos posiciona en el branch de main.
 
-6. Al trabajar, cambiarse al nuevo branch donde se implementará la tarea.
-        git checkout -b apellido_p1     // Crea y mueve hacia el branch apellido_p1
+        5. Estando en main, asegurarse de que está actualizado en nuestro repositorio local.
+                git pull                        // Descarga las actualizaciones de main a nuestro local.
 
-7. Realizar la implementacion (tarea).
+        6. Para comenzar a trabajar, crear un nuevo branch posicionarse en él para implementar la tarea.
+                git checkout -b nombre_branch     // Crea un nuevo branch y nos posiciona en él.
 
-8. Revisar los archivos que fueron modificados.
-        git status                      // Enlista los archivos modificados
+        7. Realizar la implementacion (tarea).
+                - Crear los archivos necesarios dentro de la carpeta de cada alumno. Git se dará cuenta de qué
+                archivos son modificados o si se han creado nuevos archivos.
 
-            - Color rojo: indica que hay archivos modificados que no están en stage.
-            - Color verde: indica que hay archivos modificados que ya están en stage.
+        8. Verificar los archivos que fueron modificados.
+                git status                      // Enlista los archivos modificados
 
-        git diff                        // Muestra línea línea los cambios que el
-                                        // archivo ha sufrido. Por cada línea de código
-                                        // se muestra en rojo cómo estaba dicha línea de
-                                        // código antes de ser modificada, y en verde
-                                        // el cambio actual.
+                - Color rojo: indica que hay archivos modificados que no están en stage.
+                - Color verde: indica que hay archivos modificados que ya están en stage.
 
-            - Color rojo: Muestra la línea de código previo al cambio realizado.
-            - Color verde: Muestra la línea de códig modificada actualmente.
-            - Si el archivo desplegado es demasiado grande, la terminal quedará
-              "atorada" en el modo "visor de archivo". Para salir de ese estado es
-              necesario presionar la tecla "q".
-            
-9. Mover tarea al estado de "stage".
-        git add .                       // Agrega todos los archivos a stage
+                git diff                        // Muestra línea línea los cambios que el
+                                                // archivo ha sufrido. Por cada línea de código
+                                                // se muestra una representación en color rojo y
+                                                // una representación en color verde.
 
-10. Asegurarse que los que se pretende subir, sí está en stage.
-        git status                      // Enlista archivos modificados
+                - Color rojo: Muestra la línea de código previo al cambio realizado.
+                - Color verde: Muestra la línea de código modificada actualmente.
+                
+                Nota: Si el archivo desplegado es demasiado grande, la terminal quedará
+                        bloqueada en el modo "comparación de versiones de archivo". Para salir
+                        de ese estado es, necesario presionar la tecla "q".
+                
+        9. Mover tarea al estado de "stage".
+                git add .                       // Agrega todos los archivos a stage
 
-11. Realizar commit de lo que se va a subir.
-        git commit -m "Mensaje breve de lo que se esta subiendo"
+                Alternativamente se puede subir a stage los archivos de uno por uno:
 
-12. Subir al branch remoto los cambios locales
-        git push origin apellido_p1
+                git add path/archivo            // Sube a stage únicaente el archivo indicado
 
-13. Trabajar Pull Request
+        10. Comprobar que los archivos que se desean subir efectivamente están en stage (este paso)
+        es opcional pero recomendado.
+                git status                      // Enlista archivos modificados. En este punto si
+                                                // si todo está bien, la lista debería estar
+                                                // indicado en color verde.
 
+        11. Realizar commit de lo que se va a subir.
+        IMPORTANTE: colocar el mensaje con opción -m:
+                git commit -m "Mensaje breve de lo que se esta subiendo"
+
+        12. Subir lo trabajado localmente al branch remoto.
+                git push origin nombre_branch   // Sube los cambios implemnetados a github.
+
+        13. Solicitar Pull Request
+
+
+CREACIÓN DE PULL REQUEST
+
+        1. En la página principal de Github, un recuadro amarillo aparecerá indicando que recientemente.
+           Click en "Compare and Pull Request".
+
+        2. Si el recuadro amarillo no aparece, seguir los siguientes pasos:
+                - Click en pestaña de "Pull Requests"
+                - Presionar botón verde de "New pull request".
+                - En el dropdown list de "base" colocar el branch de  "main".
+                - En el dropdown list de "compare", colocar el branch donde la tarea fue subida.
+                - Se mostrarán los archivos que fueron modificados.
+
+        3. Asegurarse que los branches del Pull Request apuntan de la siguiente manera:
+                - Base: main.
+                - Compare: el branch donde la tarea fue subida.
+
+        4. Colocar título de la tarea entregada.
+                - Seguir el formato: "Nombre del alumno, entrega de práctica X".
+
+        5. Colocar en la descripción el mismo texto del título.
+
+        6. Asegurarse de indicarse a sí mismo en Asignee.
+
+        7. Asegurarse de indicar en Reviewer al maestro.
+
+        8. Click en el botón verde de "Create Pull Request".
+
+        9. Esperar la revisión de la tarea.

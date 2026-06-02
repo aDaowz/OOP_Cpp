@@ -23,9 +23,30 @@ Este repositorio tiene como objetivo el estudio de Programación Orientado a Obj
 
 Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github antes de la fecha indicada. Cada práctica debe ser nombrada con el prefijo **Pnúmero**.
 
-1. **P1. Título práctica**
+1. **P1. Encapsulamiento H y Cpp**
+
+    **Fecha:** 1/May2026<br>
+    **Tipo:** Conocimiento de lenguaje.
+    
+    La lección de Encapsulamiento ha sido traducida directamente desde C# a Cpp en donde todo está contenido dentro de un mismo archivo. En clases se vio que en C++ las clases se
+    trabajan con 2 archivos: los headers (.h) y la implementación (.cpp).
+
+    Convierte esa lección a una estructura de C++ con sus respectivos archivos de header e implementación.
+
+    Sube la tarea a github.
+
+<!-- 
+2. **P. Título**
 
     **Fecha:** TBD<br>
     **Tipo:** TBD.
     
     Descripción de la práctica
+
+3. **P. Título**
+
+    **Fecha:** TBD<br>
+    **Tipo:** TBD.
+    
+    Descripción de la práctica
+-->
