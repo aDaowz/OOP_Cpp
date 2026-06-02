@@ -1,1 +1,54 @@
-Text
+Pasos para subir tareas a Github
+
+1. Clonar el repositorio
+
+2. Abrir el repositorio en Visual Studio Code (Azul).
+
+3. Asegurarse que estamos posicionados en el branch de "main" (el nombre legacy de main es "master").
+        git branch                      // Enlista los branches locales y muestra
+                                        // en color verde y con asterisco el branch
+                                        // donde nos encontramos posicionados.
+
+4. Si no estamos en main, asegurarse que nos posicionemos en main
+        git checkout main               // Nos posicionamos a main.
+
+5. Asegurarse que tenemos actualizado el main en nuestro repositorio local.
+        git pull                        // Descarga las actualizaciones de main a nuestro local.
+
+6. Al trabajar, cambiarse al nuevo branch donde se implementará la tarea.
+        git checkout -b apellido_p1     // Crea y mueve hacia el branch apellido_p1
+
+7. Realizar la implementacion (tarea).
+
+8. Revisar los archivos que fueron modificados.
+        git status                      // Enlista los archivos modificados
+
+            - Color rojo: indica que hay archivos modificados que no están en stage.
+            - Color verde: indica que hay archivos modificados que ya están en stage.
+
+        git diff                        // Muestra línea línea los cambios que el
+                                        // archivo ha sufrido. Por cada línea de código
+                                        // se muestra en rojo cómo estaba dicha línea de
+                                        // código antes de ser modificada, y en verde
+                                        // el cambio actual.
+
+            - Color rojo: Muestra la línea de código previo al cambio realizado.
+            - Color verde: Muestra la línea de códig modificada actualmente.
+            - Si el archivo desplegado es demasiado grande, la terminal quedará
+              "atorada" en el modo "visor de archivo". Para salir de ese estado es
+              necesario presionar la tecla "q".
+            
+9. Mover tarea al estado de "stage".
+        git add .                       // Agrega todos los archivos a stage
+
+10. Asegurarse que los que se pretende subir, sí está en stage.
+        git status                      // Enlista archivos modificados
+
+11. Realizar commit de lo que se va a subir.
+        git commit -m "Mensaje breve de lo que se esta subiendo"
+
+12. Subir al branch remoto los cambios locales
+        git push origin apellido_p1
+
+13. Trabajar Pull Request
+
