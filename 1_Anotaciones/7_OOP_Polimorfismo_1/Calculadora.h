@@ -36,7 +36,7 @@ polimorfismo estático es mediante la sobrecarga
 de métodos.
 
 ===================================================
-Sobrecarga de métodos
+Sobrecarga de métodos (overloading)
 ===================================================
 
 La sobrecarga de métodos consiste en crear
@@ -46,7 +46,7 @@ diferentes listas de parámetros.
 Esto permite reutilizar un mismo identificador
 para realizar tareas similares.
 
-Ejemplo:
+Ejemplo (.h):
 
  sumar(int, int)
  sumar(double, double)
