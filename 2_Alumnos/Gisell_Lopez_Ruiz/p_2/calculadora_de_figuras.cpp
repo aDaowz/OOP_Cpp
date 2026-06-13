@@ -5,7 +5,7 @@
 #include "Trapecio.h"
 #include "Circulo.h"
 
-using namespace std;
+
 
 int main()
 {
@@ -13,15 +13,15 @@ int main()
 
     do
     {
-        cout << "\n===== MENU DE FIGURAS =====\n";
-        cout << "1. Cuadrado\n";
-        cout << "2. Rectangulo\n";
-        cout << "3. Triangulo\n";
-        cout << "4. Trapecio\n";
-        cout << "5. Circulo\n";
-        cout << "6. Salir\n";
-        cout << "Seleccione una opcion: ";
-        cin >> opcion;
+        std::cout << "\n===== MENU DE FIGURAS =====\n";
+        std::cout << "1. Cuadrado\n";
+        std::cout << "2. Rectangulo\n";
+        std::cout << "3. Triangulo\n";
+        std::cout << "4. Trapecio\n";
+        std::cout << "5. Circulo\n";
+        std::cout << "6. Salir\n";
+        std::cout << "Seleccione una opcion: ";
+        std::cin >> opcion;
 
         switch (opcion)
         {
@@ -29,8 +29,8 @@ int main()
         {
             double lado;
 
-            cout << "Ingrese el lado del cuadrado: ";
-            cin >> lado;
+            std::cout << "Ingrese el lado del cuadrado: ";
+            std::cin >> lado;
 
             Cuadrado cuadrado(lado);
 
@@ -47,11 +47,11 @@ int main()
         {
             double base, altura;
 
-            cout << "Ingrese la base: ";
-            cin >> base;
+            std::cout << "Ingrese la base: ";
+            std::cin >> base;
 
-            cout << "Ingrese la altura: ";
-            cin >> altura;
+            std::cout << "Ingrese la altura: ";
+            std::cin >> altura;
 
             Rectangulo rect(base, altura);
 
@@ -66,21 +66,18 @@ int main()
 
         case 3:
         {
-            double base, altura, lado1, lado2;
+            double base, lado1, lado2;
 
-            cout << "Ingrese la base: ";
-            cin >> base;
+            std::cout << "Ingrese el lado 1: ";
+            std::cin >> base;
 
-            cout << "Ingrese la altura: ";
-            cin >> altura;
+            std::cout << "Ingrese el lado 2: ";
+            std::cin >> lado1;
 
-            cout << "Ingrese lado 1: ";
-            cin >> lado1;
+            std::cout << "Ingrese el lado 3: ";
+            std::cin >> lado2;
 
-            cout << "Ingrese lado 2: ";
-            cin >> lado2;
-
-            Triangulo tri(base, altura, lado1, lado2);
+            Triangulo tri(base, lado1, lado2);
 
             tri.calcularArea();
             tri.calcularPerimetro();
@@ -95,20 +92,20 @@ int main()
         {
             double baseMayor, baseMenor, altura, lado1, lado2;
 
-            cout << "Ingrese base mayor: ";
-            cin >> baseMayor;
+            std::cout << "Ingrese base mayor: ";
+            std::cin >> baseMayor;
 
-            cout << "Ingrese base menor: ";
-            cin >> baseMenor;
+            std::cout << "Ingrese base menor: ";
+            std::cin >> baseMenor;
 
-            cout << "Ingrese altura: ";
-            cin >> altura;
+            std::cout << "Ingrese altura: ";
+            std::cin >> altura;
 
-            cout << "Ingrese lado 1: ";
-            cin >> lado1;
+            std::cout << "Ingrese lado 1: ";
+            std::cin >> lado1;
 
-            cout << "Ingrese lado 2: ";
-            cin >> lado2;
+            std::cout << "Ingrese lado 2: ";
+            std::cin >> lado2;
 
             Trapecio trap(baseMayor, baseMenor, altura, lado1, lado2);
 
@@ -125,8 +122,8 @@ int main()
         {
             double radio;
 
-            cout << "Ingrese el radio: ";
-            cin >> radio;
+            std::cout << "Ingrese el radio: ";
+            std::cin >> radio;
 
             Circulo cir(radio);
 
@@ -140,11 +137,11 @@ int main()
         }
 
         case 6:
-            cout << "\nPrograma finalizado.\n";
+            std::cout << "\nPrograma finalizado.\n";
             break;
 
         default:
-            cout << "\nOpcion no valida.\n";
+            std::cout << "\nOpcion no valida.\n";
         }
 
     } while (opcion != 6);
