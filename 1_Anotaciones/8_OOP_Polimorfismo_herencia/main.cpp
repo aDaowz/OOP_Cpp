@@ -72,14 +72,16 @@
  *
  */
 
- class Figura
+ class Figura // Clase Base
 {
     public:
         virtual void calcularArea();
+        virtual void calcularPerimetro();
 };
 
 class Cuadrado : public Figura
 {
     public:
         void calcularArea() override;
+        void calcularPerimetro() override;
 };
