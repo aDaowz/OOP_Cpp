@@ -62,6 +62,14 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
     5. Entregar diagrama de clases.
     6. Generar *Pull Request*.
 
+3. **P3. Título**
+
+    **Fecha:** 15/Jun/2026<br>
+    **Tipo:** Conocimiento de sintaxis.
+    
+    En clase se estudió el cuarto fundamente de la OOP: Polimorfismo en clases abstractas.
+    Complementar el archivo `main.cpp` y el análisis para la clase `Gato`.
+
 <!-- 
 2. **P. Título**
 
