@@ -38,5 +38,5 @@ class Gato : public Animal
     public:
         Gato(std::string nombre, int edad);
 
-        void HacerSonido() override;
+        void hacerSonido() override;
 };
