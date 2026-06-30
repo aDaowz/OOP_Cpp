@@ -87,7 +87,7 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
     Cumplir con los siguientes requisitos:
 
     - Analizar el código dado.
-    - Analizar e implementar la estructura de clases dado el diseño entregado: [Diagrama de clases](https://github.com/aDaowz/OOP_Cpp/blob/main/Ejercicios/Calculadora/F1/OOP_calculadora_f1.pdf).
+    - Analizar e implementar la estructura de clases dado el diseño entregado: [Diagrama de clases](https://github.com/aDaowz/OOP_Cpp/blob/main/Ejercicios/Calculadora/F1/OOP_calculadora_f1_v1.pdf).
     - Implementar los archivos `.h` y `.cpp` correspondientes para las clases.
     - En los archivos `.h`, explicar qué principio de buenas prácticas se está emplenado en la clase y por qué.
 

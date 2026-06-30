@@ -12,17 +12,12 @@ El código también debe ser:
 
  - Fácil de leer.
  - Fácil de modificar.
- - Fácil de extender.
+ - Fácil de escalar.
  - Fácil de mantener.
 
 Para lograr esto, existen principios y guías
 que ayudan a tomar mejores decisiones al diseñar
 y organizar el código.
-
-A continuación se describen los principios
-que se aplican actualmente en el ejercicio
-de la calculadora.
-
 
 
 ===================================================
