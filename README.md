@@ -23,7 +23,14 @@ Este repositorio tiene como objetivo el estudio de Programación Orientado a Obj
 
 Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github antes de la fecha indicada. Cada práctica debe ser nombrada con el prefijo **Pnúmero**.
 
-1. **P1. Encapsulamiento H y Cpp**
+1. **P1. Mapa mental de punteros**
+
+    **Fecha:** --<br>
+    **Tipo:** Conocimiento de lenguaje.
+    
+    Realizar un mapa mental (opcionalmente un esquema) del funcionamiento de punteros
+
+2. **P2. Encapsulamiento H y Cpp**
 
     **Fecha:** 1/May/2026<br>
     **Tipo:** Conocimiento de lenguaje.
@@ -35,12 +42,12 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
 
     Sube la tarea a github.
 
-2. **P2. Calculadora de areas y perímetros**
+3. **P4. Calculadora de areas y perímetros**
 
     **Fecha:** 8/Jun/2026<br>
     **Tipo:** Conocimiento de lenguaje.
     
-    Dentro del repositorio se encuentra la lección de Herencia en el siguiente enlace (https://github.com/aDaowz/OOP_Cpp/tree/main/1_Anotaciones/5_OOP_Herencia).
+    Dentro del repositorio se encuentra la lección de Herencia en el siguiente enlace: [5_OOP_Herencia](https://github.com/aDaowz/OOP_Cpp/tree/main/1_Anotaciones/5_OOP_Herencia).
     
     Este enlace sólo contiene las clases principales para comprender herencia en C++, que son:
     
@@ -62,7 +69,7 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
     5. Entregar diagrama de clases.
     6. Generar *Pull Request*.
 
-3. **P3. Título**
+4. **P4. Título**
 
     **Fecha:** 15/Jun/2026<br>
     **Tipo:** Conocimiento de sintaxis.
@@ -70,15 +77,28 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
     En clase se estudió el cuarto fundamente de la OOP: Polimorfismo en clases abstractas.
     Complementar el archivo `main.cpp` y el análisis para la clase `Gato`.
 
+5. **P5. Calculadora OOP**
+
+    **Fecha:** 06/Julio/2026<br>
+    **Tipo:** Conocimiento de sintaxis.
+    
+    Dado el ejercicio resuelto de una calculadora en código estructurado ([Calculadora resuelta](https://github.com/aDaowz/OOP_Cpp/blob/main/Ejercicios/Calculadora/calculadora.cpp)), convertir y transforar su paradigma para que esté orientado a objetos.
+    
+    Cumplir con los siguientes requisitos:
+
+    - Analizar el código dado.
+    - Analizar e implementar la estructura de clases dado el diseño entregado: [Diagrama de clases](https://github.com/aDaowz/OOP_Cpp/blob/main/Ejercicios/Calculadora/F1/OOP_calculadora_f1.pdf).
+    - Implementar los archivos `.h` y `.cpp` correspondientes para las clases.
+
 <!-- 
-2. **P. Título**
+1. **P. Título**
 
     **Fecha:** TBD<br>
     **Tipo:** TBD.
     
     Descripción de la práctica
 
-3. **P. Título**
+2. **P. Título**
 
     **Fecha:** TBD<br>
     **Tipo:** TBD.
