@@ -69,7 +69,7 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
     5. Entregar diagrama de clases.
     6. Generar *Pull Request*.
 
-4. **P4. Título**
+4. **P4. Clases abstractas**
 
     **Fecha:** 15/Jun/2026<br>
     **Tipo:** Conocimiento de sintaxis.
