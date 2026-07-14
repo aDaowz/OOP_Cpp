@@ -91,6 +91,15 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
     - Implementar los archivos `.h` y `.cpp` correspondientes para las clases.
     - En los archivos `.h`, explicar qué principio de buenas prácticas se está emplenado en la clase y por qué.
 
+6. **P6. Título**
+
+    **Fecha:** 13/Julio/2026<br>
+    **Tipo:** Tarea conceptual.
+    
+    Hacer una mapa mental con las características y diferencias entre `Clase base`, `Clase abstracta`, `Polimorfimos dinámico` e `Interfaces`.
+
+    Engregarlo en formato `.pdf` ó de imagen.
+
 <!-- 
 1. **P. Título**
 
