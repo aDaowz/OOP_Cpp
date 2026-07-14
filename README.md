@@ -16,7 +16,7 @@ Este repositorio tiene como objetivo el estudio de Programación Orientado a Obj
 
 ## Fechas de entrega
 
-- Examen: TBD.
+- Examen (2do parcial): 27 de Julio (requisito, tener calculadora OOP).
 - Proyecto final: TBD.
 
 ## Lista de prácticas

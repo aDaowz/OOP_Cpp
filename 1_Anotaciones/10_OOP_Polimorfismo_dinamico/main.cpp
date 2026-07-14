@@ -214,6 +214,85 @@ objetos diferentes utilizando una única referencia
     - Menor cantidad de estructuras condicionales.
     - Permite tratar múltiples objetos.
 
-// [TODO]: Continuar con arreglos polimórficos.
+===================================================
+ARREGLOS POLIMÓRFICOS
+===================================================
+
+Una aplicación común para demostrar el polimorfismo dinámico
+son los arreglos polimórficos, que consisten en almacenar
+objetos de diferentes clases derivadas dentro de 
+una misma colección.
 
 */
+
+#include <iostream>
+
+// ------------- Clase Base Animal -------------
+
+class Animal
+{
+    public:
+        virtual void hacerSonido() = 0; // Método puramente virtual
+        virtual ~Animal()
+        {
+            std::cout << "Destruyendo objeto animal." << std::endl;
+        };
+};
+
+// ------------- Clase Perro -------------
+
+class Perro : public Animal
+{
+    public:
+        void hacerSonido() override
+        {
+            std::cout << "Guau" << std::endl;
+        }
+};
+
+// ------------- Clase Gato -------------
+
+class Gato : public Animal
+{
+    public:
+        void hacerSonido() override
+        {
+            std::cout << "Miau" << std::endl;
+        }
+};
+
+// ------------- Clase Vaca -------------
+
+class Vaca : public Animal
+{
+    public:
+        void hacerSonido() override
+        {
+            std::cout << "Muu" << std::endl;
+        }
+};
+
+int main()
+{
+    Animal* animales[3];
+    animales[0] = new Perro();
+    animales[1] = new Gato();
+    animales[2] = new Vaca();
+
+    for(int i = 0; i < 3; i++)
+    {
+        animales[i]->hacerSonido();
+        delete animales[i]; // Invocación del destructor
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
