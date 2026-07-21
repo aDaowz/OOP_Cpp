@@ -172,5 +172,65 @@ no requiere modificar el código existete.
         con Circulo, Rectangulo, Triangulo o cualquier
         otra figura que se cree en el futuro sin
         necesidda de ser modificada.
-
 */
+
+#include <iostream>
+#include <cmath> // opcional para constante de M_PI
+
+// Interfaz
+class IFigura
+{
+    public:
+        virtual double area() = 0;
+        virtual double perimetro() = 0;
+        virtual void describir () = 0;
+        virtual ~IFigura(){}
+};
+
+class Circulo : public IFigura
+{
+    private:
+        double radio;
+        // Si no quisieran usar cmath, entonces habría que implementar PI como constante
+
+    public:
+        Circulo(double radio)
+        {
+            this->radio = radio;
+        }
+
+        double area() override
+        {
+            return M_PI * radio * radio;
+        }
+
+        double perimetro override
+        {
+            return 2 * M_PI * radio;
+        }
+
+        void describir() override
+        {
+            std::cout << "Circulo:" << std::endl << "Area: " << area() << std::endl << "Perimetro: " << perimetro();
+        }
+};
+
+class Rectangulo : public IFigura
+{
+    // Implementar desde interfaz los overrides para Rectangulo
+};
+
+class Cuadrado : public IFigura
+{
+    // Implementar desde interfaz los overrides para Cuadrado
+};
+
+class Triangulo : public IFigura
+{
+    // Implementar desde interfaz los overrides para Triángulo. Usar fórmula de Herón.
+};
+
+int main()
+{
+    // Implementar la aplicación para seleccionar una figura y que imprima sus datos.
+}
