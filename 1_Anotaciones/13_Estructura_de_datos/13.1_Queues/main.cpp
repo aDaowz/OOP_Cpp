@@ -42,25 +42,25 @@ int main()
 
         switch (option)
         {
-        case ADD:
-        {
-            std::string element;
-            std::cout << "Ingresar elemento: ";
-            std::cin >> element;
-            queue.enqueue(element);
-            break;
-        }
-        case REMOVE:
-            queue.dequeue();
-            break;
-        case VIEW:
-            queue.front();
-            break;
-        case EXIT:
-            std::cout << "Saliendo de la aplicación..." << std::endl;
-            break;
-        default:
-            std::cout << "Opción no válida." << std::endl;
+            case ADD:
+            {
+                std::string element;
+                std::cout << "Ingresar elemento: ";
+                std::cin >> element;
+                queue.enqueue(element);
+                break;
+            }
+            case REMOVE:
+                queue.dequeue();
+                break;
+            case VIEW:
+                queue.front();
+                break;
+            case EXIT:
+                std::cout << "Saliendo de la aplicación..." << std::endl;
+                break;
+            default:
+                std::cout << "Opción no válida." << std::endl;
         }
     } while (option != EXIT);
 

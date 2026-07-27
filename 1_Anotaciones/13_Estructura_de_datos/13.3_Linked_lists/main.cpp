@@ -45,30 +45,30 @@ int main()
 
         switch (option)
         {
-        case ADD:
-        {
-            std::string value;
-            std::cout << "Ingresar elemento: ";
-            std::cin >> value;
-            linkedList.append(value);
-            break;
-        }
-        case REMOVE:
-        {
-            std::string value;
-            std::cout << "Ingresar elemento que será retirado: ";
-            std::cin >> value;
-            linkedList.remove(value);
-            break;
-        }
-        case DISPLAY:
-            linkedList.display();
-            break;
-        case EXIT:
-            std::cout << "Saliendo de la aplicación..." << std::endl;
-            break;
-        default:
-            std::cout << "Opción no válida." << std::endl;
+            case ADD:
+            {
+                std::string value;
+                std::cout << "Ingresar elemento: ";
+                std::cin >> value;
+                linkedList.append(value);
+                break;
+            }
+            case REMOVE:
+            {
+                std::string value;
+                std::cout << "Ingresar elemento que será retirado: ";
+                std::cin >> value;
+                linkedList.remove(value);
+                break;
+            }
+            case DISPLAY:
+                linkedList.display();
+                break;
+            case EXIT:
+                std::cout << "Saliendo de la aplicación..." << std::endl;
+                break;
+            default:
+                std::cout << "Opción no válida." << std::endl;
         }
     } while (option != EXIT);
 
