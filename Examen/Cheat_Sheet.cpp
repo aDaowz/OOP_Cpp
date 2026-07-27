@@ -173,3 +173,42 @@ FUNCIONES API
 
 std::string palabra = "Hola"; // Declaración de variable string
 int x = palabra.length(); // Devuelve el entero que representa la longitud de la palabra
+
+/*
+================================================================================
+APIs PARA VALIDACIÓN DE INPUTS
+================================================================================
+*/
+
+
+// API PARA CAPTURAR UNA LÍNEA COMPLETA
+
+std::string texto = "";
+std::getline(std::cin, texto);
+// Captura una línea completa desde std::cin y la almacena en texto.
+
+
+// API PARA LEER UN STRING COMO FLUJO DE ENTRADA (istringstream)
+
+#include <sstream>
+
+std::istringstream objetoStreamer(texto);
+// Objeto que permite leer y convertir el contenido de texto mediante >>.
+
+int numeroConvertido = 0;
+objetoStreamer >> numeroConvertido;
+// El tipo de dato de numeroConvertido determinará el tipo de extracción buscado.
+// Como numeroConvertido está declarado como int, objetoStreamer intenta extraer un número entero.
+// Si logra extraer y convertir un entero, almacena el valor obtenido en objetoStreamer
+// En una condición, la extracción se evalúa como true cuando logra obtener el tipo solicitado
+// y como false cuando no puede obtenerlo.
+
+// API PARA VALIDAR CARACTERES SOBRANTES
+
+char caracterExtra = '\0';
+// '\0' es el carácter nulo y se utiliza como valor inicial.
+
+objetoStreamer >> caracterExtra;
+// Intenta extraer el siguiente carácter que no sea un espacio.
+// En una condición, la extracción se evalúa como true si encuentra
+// otro carácter. Esto indica que existe contenido adicional.
