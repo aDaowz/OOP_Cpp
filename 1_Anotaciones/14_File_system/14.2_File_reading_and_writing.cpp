@@ -32,9 +32,7 @@ int main()
     std::string fileName = "data.txt";
 
     /*
-    * ----------------------------------------------------------------
     * ESCRITURA DEL ARCHIVO
-    * ----------------------------------------------------------------
     *
     * outputFile es un objeto de la clase std::ofstream.
     * Al recibir fileName, intenta abrir ese archivo para escritura.
@@ -73,9 +71,7 @@ int main()
     }
 
     /*
-    * ----------------------------------------------------------------
     * LECTURA DEL ARCHIVO
-    * ----------------------------------------------------------------
     *
     * inputFile es un objeto de la clase std::ifstream.
     * Al recibir fileName, intenta abrir el archivo para lectura.
