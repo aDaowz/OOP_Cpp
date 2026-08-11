@@ -16,8 +16,8 @@ Este repositorio tiene como objetivo el estudio de Programación Orientado a Obj
 
 ## Fechas de entrega
 
-- Examen (2do parcial): 27 de Julio (requisito, tener calculadora OOP).
-- Proyecto final: TBD.
+- Examen parcial 1: 27 de Julio (requisito, tener calculadora OOP).
+- Examen parcial 2: 24 de Agosto (requisito, tener calculadora OOP).
 
 ## Lista de prácticas
 
@@ -91,7 +91,7 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
     - Implementar los archivos `.h` y `.cpp` correspondientes para las clases.
     - En los archivos `.h`, explicar qué principio de buenas prácticas se está emplenado en la clase y por qué.
 
-6. **P6. Título**
+6. **P6. Mapa conceptual de Polimorfismo**
 
     **Fecha:** 13/Julio/2026<br>
     **Tipo:** Tarea conceptual.
@@ -99,6 +99,35 @@ Las tareas deberán ser entregadas en un archivo **.cpp** a través de Github an
     Hacer una mapa mental con las características y diferencias entre `Clase base`, `Clase abstracta`, `Polimorfimos dinámico` e `Interfaces`.
 
     Engregarlo en formato `.pdf` ó de imagen.
+
+7. **P. Exposición de Estructuras de datos**
+
+    **Fecha:** 10 Agosto<br>
+    **Tipo:** Algoritmos.
+    
+    Basándose en las anotaciones dadas para estructuras de datos, analizar la aplicación y el uso de dicha estructura de dato. Debe ser expuesto en clase.
+
+8. **P. Calculadora OOP con logger**
+
+    **Fecha:** 24 Agosto<br>
+    **Tipo:** Sintaxis.
+    
+    Dado el ejercicio resuelto en el primer examen parcial, agregar una clase `Logger` que se encargue de reconocer cada una de las acciones con las que el usuario interactúa con la aplicación. Estas acciones deben imprimirse en un archivo .txt que es generado una vez que el usuario ha salido de la aplicación.
+
+    El Logger debe registrar las siguientes acciones:
+
+    - Registro cuando la aplicación se ha inicializado.
+    - Registro de impresiones de mensajes en consola.
+    - Registro y despliegue de las opciones que el usuario seleccionó en el menú.
+    - Registro y despliegue de datos numéricos ingresados por el usuario.
+    - Registro y despliegue de las operaciones y los resultados obtenidos con los datos dados.
+    - Registro y despliegue de errores.
+    - Registro de cuando la aplicación va a cerrarse.
+    - Registro de generación de archivo de logs.
+
+    Los registros de interacciones de usuario deben tener el tag de `[Info]`, mientras que los registros de error deben tener el tag `[Error]`.
+
+    Nota: la clase de Logger no debe contener métodos ni atributos estáticos.
 
 <!-- 
 1. **P. Título**
