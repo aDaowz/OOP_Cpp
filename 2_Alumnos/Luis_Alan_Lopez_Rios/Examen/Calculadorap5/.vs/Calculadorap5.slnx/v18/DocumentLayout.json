@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorTyper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\ErrorTyper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\ErrorHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\InputHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\InputHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadorap5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\Calculadorap5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\ErrorHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Consola.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\Consola.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadora.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\Calculadora.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Consola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\Consola.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\InputHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\InputHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5431B58-113D-464B-AECB-AD9BE1A4F5F7}|Calculadorap5\\Calculadorap5.vcxproj|solutionrelative:Calculadorap5\\Calculadora.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InputHandler.h",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\InputHandler.h",
+              "RelativeDocumentMoniker": "Calculadorap5\\InputHandler.h",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\InputHandler.h",
+              "RelativeToolTip": "Calculadorap5\\InputHandler.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-28T01:31:12.061Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Calculadora.h",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadora.h",
+              "RelativeDocumentMoniker": "Calculadorap5\\Calculadora.h",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadora.h",
+              "RelativeToolTip": "Calculadorap5\\Calculadora.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-20T23:19:19.207Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Consola.h",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Consola.h",
+              "RelativeDocumentMoniker": "Calculadorap5\\Consola.h",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Consola.h",
+              "RelativeToolTip": "Calculadorap5\\Consola.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-20T23:23:31.706Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Calculadora.cpp",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadora.cpp",
+              "RelativeDocumentMoniker": "Calculadorap5\\Calculadora.cpp",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadora.cpp",
+              "RelativeToolTip": "Calculadorap5\\Calculadora.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-20T23:20:23.98Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Consola.cpp",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Consola.cpp",
+              "RelativeDocumentMoniker": "Calculadorap5\\Consola.cpp",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Consola.cpp",
+              "RelativeToolTip": "Calculadorap5\\Consola.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-20T23:25:37.5Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorHandler.h",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorHandler.h",
+              "RelativeDocumentMoniker": "Calculadorap5\\ErrorHandler.h",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorHandler.h",
+              "RelativeToolTip": "Calculadorap5\\ErrorHandler.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-28T01:33:40.501Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorHandler.cpp",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorHandler.cpp",
+              "RelativeDocumentMoniker": "Calculadorap5\\ErrorHandler.cpp",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorHandler.cpp",
+              "RelativeToolTip": "Calculadorap5\\ErrorHandler.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-28T01:33:45.766Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Calculadorap5.cpp",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadorap5.cpp",
+              "RelativeDocumentMoniker": "Calculadorap5\\Calculadorap5.cpp",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\Calculadorap5.cpp",
+              "RelativeToolTip": "Calculadorap5\\Calculadorap5.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-20T23:06:26.474Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputHandler.cpp",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\InputHandler.cpp",
+              "RelativeDocumentMoniker": "Calculadorap5\\InputHandler.cpp",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\InputHandler.cpp",
+              "RelativeToolTip": "Calculadorap5\\InputHandler.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-04T00:49:27.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ErrorTyper.h",
+              "DocumentMoniker": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorTyper.h",
+              "RelativeDocumentMoniker": "Calculadorap5\\ErrorTyper.h",
+              "ToolTip": "C:\\Users\\allop\\source\\repos\\Calculadorap5\\Calculadorap5\\ErrorTyper.h",
+              "RelativeToolTip": "Calculadorap5\\ErrorTyper.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-03T23:01:06.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
